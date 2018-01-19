@@ -29,7 +29,7 @@
 | Replace | `CMD + R` | `Ctrl + R`  | Замена найденных символов  |
 | Duplicate Lines | `CMD + D` | `Ctrl + D` | Создать дубликат текущей строки |
 | Safe Delete | `CMD + Backspace` | `Ctrl + Y` | Удаление всей текущей строки |
-| Select block | `ALT + up` | `Ctrl-W`  | Выделить блок кода (слово/строка/документ)|
+| Select block | `ALT + up` | `Ctrl-W`  | Выделить блок кода (расширить выделение слово->предложение->конструкция->...)|
 | Move Line Up | `CMD + Shift + up` | `Ctrl + Shift + up`  | Переместить текущую строку на одну строку вверх |
 | Move Line Down | `CMD + Shift + down` | `Ctrl + Shift + down`  | Переместить текущую строку на одну строку вниз |
 | Line comment | `CMD + /` | `Ctrl + /`  |  Добавить строчный комментарий |
@@ -39,3 +39,15 @@
 | Last Edition Location | `CMD + Shift + Backspace` | `Ctrl + Shift + Backspace`  | Вернуться к предыдущему месту редактирования |
 | Rename | `CMD + F6` |  `Shift +  F6` | Умное переименовывание переменной/атрибута с заменой по проекту |
 | Surround with | `CMD + ALT + T` |  `Ctrl + ALT + T` | Оборачивание выделенного кода, в выбраное выражение* |
+
+
+
+## Инфо
+
+| Команда | Mac OS X | Windows/Linux | Description |
+| ------- | -------- | ------- | ----------- |
+| Find Declaration | ` ` | `Ctrl+B`  | Где объявлен класс, метод, переменная (поиск) |
+| Valid parametrs | ` ` | `Ctrl+P`  | Нажатие в скобках метода покажет валидные параметры |
+| Highlight Usages | ` ` | `Ctrl+Shift+F7`  | Подсветит переменную во всём файле (F3 и Shift+F3 - перемещение по найденному) |
+
+
