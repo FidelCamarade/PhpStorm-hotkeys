@@ -21,6 +21,7 @@
 | Find Action | ` ` |  `Ctrl + Shift + A` | Поиск опции меню или команды |
 
 
+
 ## Редактирование
 
 | Команда | Mac OS X | Windows/Linux | Description |
@@ -29,8 +30,8 @@
 | Replace | `CMD + R` | `Ctrl + R`  | Замена найденных символов  |
 | Duplicate Lines | `CMD + D` | `Ctrl + D` | Создать дубликат текущей строки |
 | Safe Delete | `CMD + Backspace` | `Ctrl + Y` | Удаление всей текущей строки |
-| Select block | `ALT + up` | `Ctrl + W / Ctrl + Sift + W`  | Выделить блок кода (расширить выделение слово->предложение->конструкция->...) или наоборото |
-| Multi select | `ALT + Click` | `ALT + J / Alt + Shift + J`  | Множественный курсор (нажать и немного подержать - выделит все вхождения) |
+| Select block | `ALT + up` | `Ctrl + W <br> Ctrl + Sift + W`  | Выделить блок кода (расширить выделение слово->предложение->конструкция->...) или наоборото |
+| Multi select | `ALT + Click` | `ALT + J <br> Alt + Shift + J`  | Множественный курсор (нажать и немного подержать - выделит все вхождения) |
 | Move Line Up | `CMD + Shift + up` | `Ctrl + Shift + up`  | Переместить текущую строку на одну строку вверх |
 | Move Line Down | `CMD + Shift + down` | `Ctrl + Shift + down`  | Переместить текущую строку на одну строку вниз |
 | Line comment | `CMD + /` | `Ctrl + /`  |  Добавить строчный комментарий |
@@ -42,6 +43,7 @@
 | Basic Completion | ` ` |  `Ctrl + Space` | Автодополнение команд/атрибутов/параметров и пр. |
 
 
+
 ## Навигация
 
 | Команда | Mac OS X | Windows/Linux | Description |
@@ -49,17 +51,18 @@
 | Quick Documentation | ` ` | `Ctrl + Q`  | Вызов всплывашки быстрой документации к выбраному классу/методу |
 | Valid parametrs | ` ` | `Ctrl + P`  | Нажатие в скобках метода/функции покажет параметры вызова |
 | Find Declaration | ` ` | `Ctrl + B`  | Поиск места определения класса/метода/переменной |
+| Navigation Bar | ` ` | `Alt + Home`  | Переход по структуре проекта |
+
 
 
 ## Инфо
 
 | Команда | Mac OS X | Windows/Linux | Description |
 | ------- | -------- | ------- | ----------- |
-| Navigation Bar | ` ` | `Alt + Home`  | Переход по структуре проекта |
 | Find Usages | ` ` | `Alt + F7`  | Поиск по проекту использований класса, метода, переменной |
 | Show Usages | ` ` | `Ctrl + Alt + F7`  | Показать вызов/использование метода/класса/переменной во всём проекте |
 | Highlight Usages | ` ` | `Ctrl + Shift + F7`  | Подсветит переменную во всём файле (F3 и Shift+F3 - перемещение по найденному) |
 | Quick Definition | ` ` | `Ctrl + Shift + I`  | Быстрый просмотр подключаемого файла, метода и многое |
-| Syntax errors | ` ` | `F2 / Shift + F2`  | Переход по подсвеченным ошибкам синтаксиса |
+| Syntax errors | ` ` | `F2 <br> Shift + F2`  | Переход по подсвеченным ошибкам синтаксиса |
 | Recent changes | ` ` | `Alt + Shift + C`  | Просмотр последних действий в проекте |
 
