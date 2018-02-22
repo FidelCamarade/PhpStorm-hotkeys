@@ -26,21 +26,22 @@
 
 | Команда | Mac OS X | Windows/Linux | Description |
 | ------- | -------- | ------- | ----------- |
-| Find | `CMD + F` | `Ctrl + F`  | Поиск по файлу  |
-| Replace | `CMD + R` | `Ctrl + R`  | Замена найденных символов  |
-| Duplicate Lines | `CMD + D` | `Ctrl + D` | Создать дубликат текущей строки |
-| Safe Delete | `CMD + Backspace` | `Ctrl + Y` | Удаление всей текущей строки |
-| Select block | `ALT + up` | `Ctrl + W`     `Ctrl + Sift + W`  | Выделить блок кода (расширить выделение слово->предложение->конструкция->...) или наоборото |
-| Multi select | `ALT + Click` | `ALT + J`     `Alt + Shift + J`  | Множественный курсор (нажать и немного подержать - выделит все вхождения) |
-| Move Line Up | `CMD + Shift + up` | `Ctrl + Shift + up`  | Переместить текущую строку на одну строку вверх |
-| Move Line Down | `CMD + Shift + down` | `Ctrl + Shift + down`  | Переместить текущую строку на одну строку вниз |
-| Line comment | `CMD + /` | `Ctrl + /`  |  Добавить строчный комментарий |
-| Block comment | `CMD + Shift + /` | `Ctrl + Shift + /`  | Добавить блочный комментарий |
-| Surround with | `CMD + ALT + T` |  `Ctrl + ALT + T` | Оборачивание выделенного кода, в выбраное выражение* |
-| Reformat code | `CMD + ALT + L` | `Ctrl + ALT + L`  | Восстанавливает форматирование кода, согласно настройкам |
+| Find            | `CMD + F` | `Ctrl + F`                           | Поиск по файлу  |
+| Replace         | `CMD + R` | `Ctrl + R`                           | Замена найденных символов  |
+| Duplicate Lines | `CMD + D` | `Ctrl + D`                           | Создать дубликат текущей строки |
+| Safe Delete     | `CMD + Backspace` | `Ctrl + Y`                   | Удаление всей текущей строки |
+| Joins two lines | ` `       | `Ctrl + Shift + J`                   | Объединяет две строки и убирает лишние пробелы  |
+| Select block    | `ALT + up` | `Ctrl + W    Ctrl + Sift + W`       | Выделить блок кода (расширить выделение слово->предложение->конструкция->...) или наоборото |
+| Multi select    | `ALT + Click` | `ALT + J`     `Alt + Shift + J`  | Множественный курсор (нажать и немного подержать - выделит все вхождения) |
+| Move Line Up    | `CMD + Shift + up` | `Ctrl + Shift + up`         | Переместить текущую строку на одну строку вверх |
+| Move Line Down  | `CMD + Shift + down` | `Ctrl + Shift + down`     | Переместить текущую строку на одну строку вниз |
+| Line comment    | `CMD + /` | `Ctrl + /`                           | Добавить строчный комментарий |
+| Block comment   | `CMD + Shift + /` | `Ctrl + Shift + /`           | Добавить блочный комментарий |
+| Surround with   | `CMD + ALT + T` |  `Ctrl + ALT + T`              | Оборачивание выделенного кода, в выбраное выражение* |
+| Reformat code   | `CMD + ALT + L` | `Ctrl + ALT + L`               | Восстанавливает форматирование кода согласно настройкам |
 | Last Edition Location | `CMD + Shift + Backspace` | `Ctrl + Shift + Backspace`  | Вернуться к предыдущему месту редактирования |
-| Rename | `CMD + F6` |  `Shift +  F6` | Умное переименовывание переменной/атрибута с заменой по проекту |
-| Basic Completion | ` ` |  `Ctrl + Space` | Автодополнение команд/атрибутов/параметров и пр. |
+| Rename          | `CMD + F6` |  `Shift +  F6`                      | Умное переименовывание переменной/атрибута с заменой по проекту |
+| Basic Completion| ` ` |  `Ctrl + Space`                            | Автодополнение команд/атрибутов/параметров и пр. |
 
 
 
@@ -49,9 +50,10 @@
 | Команда | Mac OS X | Windows/Linux | Description |
 | ------- | -------- | ------- | ----------- |
 | Quick Documentation | ` ` | `Ctrl + Q`  | Вызов всплывашки быстрой документации к выбраному классу/методу |
-| Valid parametrs | ` ` | `Ctrl + P`  | Нажатие в скобках метода/функции покажет параметры вызова |
-| Find Declaration | ` ` | `Ctrl + B`  | Поиск места определения класса/метода/переменной |
-| Navigation Bar | ` ` | `Alt + Home`  | Переход по структуре проекта |
+| Valid parametrs     | ` ` | `Ctrl + P`  | Нажатие в скобках метода/функции покажет параметры вызова |
+| Find Declaration    | ` ` | `Ctrl + B`  | Поиск места определения класса/метода/переменной |
+| Context Info        | ` ` | `Alt + Q`   |? Показать объявление метода без прокрутки к нему  |
+| Navigation Bar      | ` ` | `Alt + Home`| Переход по структуре проекта |
 
 
 
@@ -59,10 +61,11 @@
 
 | Команда | Mac OS X | Windows/Linux | Description |
 | ------- | -------- | ------- | ----------- |
-| Find Usages | ` ` | `Alt + F7`  | Поиск по проекту использований класса, метода, переменной |
-| Show Usages | ` ` | `Ctrl + Alt + F7`  | Показать вызов/использование метода/класса/переменной во всём проекте |
-| Highlight Usages | ` ` | `Ctrl + Shift + F7`  | Подсветит переменную во всём файле (F3 и Shift+F3 - перемещение по найденному) |
-| Quick Definition | ` ` | `Ctrl + Shift + I`  | Быстрый просмотр подключаемого файла, метода и многое |
-| Syntax errors | ` ` | `F2`         `Shift + F2`  | Переход по подсвеченным ошибкам синтаксиса |
-| Recent changes | ` ` | `Alt + Shift + C`  | Просмотр последних действий в проекте |
+| Find Usages       | ` ` | `Alt + F7`              | Поиск по проекту использований класса, метода, переменной |
+| Show Usages       | ` ` | `Ctrl + Alt + F7`       | Показать вызов/использование метода/класса/переменной во всём проекте |
+| Highlight Usages  | ` ` | `Ctrl + Shift + F7`     | Подсветит переменную во всём файле (F3 и Shift+F3 - перемещение по найденному) |
+| Quick Definition  | ` ` | `Ctrl + Shift + I`      | Быстрый просмотр подключаемого файла, метода и многое |
+| Available Actions | ` ` | `Alt + Enter`           | Вызов списка доступных действий |
+| Syntax errors     | ` ` | `F2`        `Shift + F2`| Переход по подсвеченным ошибкам синтаксиса |
+| Recent changes    | ` ` | `Alt + Shift + C`       | Просмотр последних действий в проекте |
 
