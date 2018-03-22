@@ -10,15 +10,15 @@
 
 | Команда | Mac OS X | Windows/Linux | Description |
 | ------- | -------- | ------- | ----------- |
-| Preferences/Settings | `CMD + ,` | `Ctrl + Alt + S`  | Открыть настройки программы |
-| Switch tabs | `Ctrl + Tab` | `Ctrl + Tab`  | Переключение между открытыми вкладками |
-| New | `CMD + N` | `Ctrl + N`  | Создать новый файл/Директорию |
-| Save | `CMD + S` | `Ctrl + S`  | Сохранить изменения в текущем файле |
-| Save As | `CMD + Shift + S` | `Ctrl + Shift + S`  | Сохранить изменения в файле с новым именем |
-| Close Tab | `CMD + W` |  `Ctrl + F4` | Закрыть текущую вкладку |
-| Search | `Double Shift` | `Double Shift`  | Открыть окно поиска по проекту  |
-| Find in Path | `CMD + Shift + F` |  `Ctrl + Shift + F` | Поиск по всему проекту |
-| Find Action | ` ` |  `Ctrl + Shift + A` | Поиск опции меню или команды |
+| Preferences/Settings  | `CMD + ,`     | `Ctrl + Alt + S`  | Открыть настройки программы |
+| Switch tabs           | `Ctrl + Tab` | `Ctrl + Tab`  | Переключение между открытыми вкладками |
+| New                   | `CMD + N`     | `Ctrl + N`  | Создать новый файл/Директорию |
+| Save                  | `CMD + S`     | `Ctrl + S`  | Сохранить изменения в текущем файле |
+| Save As               | `CMD + Shift + S` | `Ctrl + Shift + S`  | Сохранить изменения в файле с новым именем |
+| Close Tab             | `CMD + W`     |  `Ctrl + F4` | Закрыть текущую вкладку |
+| Search                | `Double Shift` | `Double Shift`  | Открыть окно поиска по проекту  |
+| Find in Path          | `CMD + Shift + F` |  `Ctrl + Shift + F` | Поиск по всему проекту |
+| Find Action           | ` `           |  `Ctrl + Shift + A` | Поиск опции меню или команды |
 
 
 
@@ -42,6 +42,7 @@
 | Last Edition Location | `CMD + Shift + Backspace` | `Ctrl + Shift + Backspace`  | Вернуться к предыдущему месту редактирования |
 | Rename          | `CMD + F6` |  `Shift +  F6`                      | Умное переименовывание переменной/атрибута с заменой по проекту |
 | Basic Completion| ` ` |  `Ctrl + Space`                            | Автодополнение команд/атрибутов/параметров и пр. |
+| Аutocompletion | ` ` | `Ctrl + Shift + Enter`                       | Автозавершение текущего оператора (или вызов метода) в синтаксически корректную конструкцию |
 
 
 
